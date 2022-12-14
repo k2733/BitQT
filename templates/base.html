@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="BitQT">
   <meta name="author" content="XXXX">
-  <title>量化</title>
+  <title>首页</title>
   <link rel="canonical" href="">
   <!--Favicons-->
   <link>
@@ -39,7 +39,7 @@
 <body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary-grey">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/home">量化{{title}}</a>
+      <a class="navbar-brand" href="/home">首页{{title}}</a>
       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Togglenavigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,6 +47,7 @@
       <!-- <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0" id="menu">
       </div> -->
+      {% block home %} {% endblock%}
     </div>
   </nav>
   <main role="main" class="container-fluid" style="background-image: url(/static/core/image/bg.svg);
